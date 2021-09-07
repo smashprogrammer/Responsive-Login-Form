@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+::placeholder {
+  color: #fff;
+}
+::selection {
+  background: #17a8fd;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background: url("wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  user-select: none;
+  -webkit-user-select: none;
+}
+form.loginBox {
+  width: 400px;
+  background: #000000b8;
+  padding: 50px 40px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 120px auto;
+  box-shadow: 0px 0px 0px 0px #ddd;
+  position: relative;
+}
+form.loginBox h1 {
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+form.loginBox h1,
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+form.loginBox p {
+  color: #ffff;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+form.loginBox input {
+  width: 99%;
+  background: #00000000;
+  color: #ffff;
+  padding: 13px 55px;
+  border: 1px solid #fff;
+  outline: none;
+  font-size: 15px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+input[type="checkbox"] {
+  width: unset !important;
+  box-sizing: border-box !important;
+  cursor: pointer;
+  margin: 5px 0px 18px !important;
+}
+
+form.loginBox label {
+  color: #fff;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+form.loginBox button {
+  width: 100%;
+  background: #0078ce;
+  color: #fff;
+  padding: 13px 10px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  font-weight: bold;
+  font-family: system-ui;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  display: block;
+  transition: all 200ms ease;
+}
+
+span.account_desc {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+form.loginBox button:hover {
+  background: #666;
+  cursor: pointer;
+}
+
+span.account_desc a {
+  color: #0078ce;
+  text-decoration: none;
+  outline: none;
+}
+
+span.account_desc a:hover {
+  text-decoration: underline;
+}
+input:focus {
+  border: 1px solid #0078ce !important;
+}
+form.loginBox small {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px 0px;
+  color: #fff;
+  position: relative;
+}
+form.loginBox ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0px 0px;
+}
+
+form.loginBox ul li a {
+  width: 109px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+form.loginBox ul li a:hover {
+  background: #555 !important;
+}
+
+form.loginBox ul li:first-child a {
+  background: #2f64c3;
+}
+
+form.loginBox ul li:last-child a {
+  background: #ff247f;
+}
+form.loginBox small:before {
+  content: "";
+  display: inline-block;
+  width: 85px;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+
+form.loginBox small:after {
+  content: "";
+  display: inline-block;
+  width: 85px;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  left: 220px;
+  top: 10px;
+}
+form.loginBox #form-icon {
+  color: #0078ce;
+  font-size: 18px;
+  position: absolute;
+  top: unset;
+  transform: translate(20px, 15px);
+  z-index: 999;
+}
+form.loginBox ul li a i {
+  font-size: 14px;
+  margin-right: 5px;
+}
+i.eye-btn {
+  color: #0078ce;
+  font-size: 18px;
+  position: absolute;
+  top: unset;
+  transform: translate(275px, -45px);
+  z-index: 999;
+  cursor: pointer;
+}
+#show,
+#hide {
+  display: none;
+}
+.password:valid ~ #hide {
+  display: block;
+}
+/* Checkbox CSS Start */
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+}
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 3px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* End Checkbox CSS*/

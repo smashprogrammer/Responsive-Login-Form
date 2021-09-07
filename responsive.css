@@ -1,0 +1,61 @@
+@media screen and (max-width: 768px) {
+  form.loginBox {
+    width: 350px;
+  }
+
+  form.loginBox h1 {
+    font-size: 20px;
+  }
+
+  form.loginBox p {
+    font-size: 14px;
+  }
+  i.eye-btn {
+    transform: translate(230px, -45px);
+  }
+  i.eye-btn {
+    transform: translate(230px, -45px);
+  }
+
+  form.loginBox ul {
+    box-sizing: border-box;
+    flex-flow: column wrap;
+    align-items: normal;
+  }
+
+  form.loginBox ul li a {
+    display: block;
+    width: 100%;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  form.loginBox ul li:first-child a {
+    margin-bottom: 15px;
+  }
+
+  form.loginBox button {
+    width: 100%;
+    padding: 15px 25px;
+    box-sizing: border-box;
+  }
+
+  .checkmark {
+    width: 16px;
+  }
+
+  form.loginBox small {
+    font-size: 15px;
+  }
+
+  form.loginBox small:before {
+    width: 80px;
+    left: 0px;
+  }
+
+  form.loginBox small:after {
+    width: 80px;
+    left: 190px;
+  }
+}

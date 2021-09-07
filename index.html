@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form with HTML, CSS and JavaScript</title>
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    
+   <form action="" class="loginBox" method="POST">
+       <h1>Login Here !</h1>
+       <p>Login to access your dashboard</p>
+       <i id="form-icon" class="fal fa-envelope"></i><input type="email" placeholder="Enter your email" required>
+       <i id="form-icon" class="fal fa-lock-alt"></i><input class="password" type="password" placeholder="Password" required>
+       <i id="show" class="fal fa-eye eye-btn"></i>
+       <i id="hide" class="fal fa-eye-slash eye-btn"></i>
+       <label class="container">Remember me
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+       <button type="submit">Submit</button>
+       <span class="account_desc">Don't have an account? <a href="#">Sign in!</a></span>
+       <small>or, login with</small>
+       <ul>
+           <li><a class="login_facebook" href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+           <li><a class="login_facebook" href="#"><i class="fab fa-instagram"></i> Instragram</a></li>
+       </ul>
+   </form>
+   <!-- End LoginBox -->
+   
+   <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+</html>
