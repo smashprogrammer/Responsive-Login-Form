@@ -1,3 +1,4 @@
-# Responsive-Login-Form-with-HTML-CSS-and-JavaScript
-This is a responsive login form. designing with HTML , CSS and JS. Designed by Developer Arif.
-Link here: https://developer-arif-islam.github.io/Responsive-Login-Form-with-HTML-CSS-and-JavaScript/
+# HOW TO CREATE A RESPONSIVE LOGIN FORM USING HTML, CSS AND VANILLA JAVASCRIPT
+THANKS IS GIVEN IN ADVANCED TO SEE MY FIRST PROJECT IN GITHUB. I AM A JUNIOR WEB DEVELOPER AND WANT TO PUBLISH MY LITTLE PROJECTS IN GITHUB. PLEASE ALWAYS GIVE ME SUPPORT. TAKE CARE!!!
+TO SEE THE DEMO OF THIS PROJECT, YOU CAN VISIT AT THIS LINK -
+https://smashprogrammer.github.io/Responsive-Login-Form/
